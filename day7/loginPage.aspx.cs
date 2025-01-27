@@ -28,6 +28,13 @@ namespace day7
 
             string[] admin = File.ReadAllLines(adminPath);
             string[] users = File.ReadAllLines(filePath);
+            string[] parts1 = admin[0].Split(',');
+            if (email == "admin" && password == "123")
+            {
+                Response.Redirect("powerOfStudentAdmin.aspx");
+                return;
+            }
+
             foreach (string user in users)
             {
                 string[] parts = user.Split(',');
@@ -39,12 +46,7 @@ namespace day7
                 
 
             }
-            string[] parts1 = admin[0].Split(',');
-            if (parts1[1] == "admin" && parts1[2] == "123")
-            {
-                Response.Redirect("powerOfStudentAdmin.aspx");
-                return;
-            }
+            
 
 
             lblMessage.Text = "Invalid username or password!";

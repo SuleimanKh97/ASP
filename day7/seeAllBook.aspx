@@ -33,7 +33,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Table ID="bookTable" runat="server" CssClass="bookt">
+            <%--<asp:Table ID="bookTable" runat="server" CssClass="bookt">
                 <asp:TableHeaderRow>
                     <asp:TableHeaderCell>Book ID</asp:TableHeaderCell>
                     <asp:TableHeaderCell>Book Name</asp:TableHeaderCell>
@@ -46,7 +46,22 @@
                     <asp:TableCell>Science</asp:TableCell>
                     <asp:TableCell>1</asp:TableCell>
                 </asp:TableRow>
-            </asp:Table>
+            </asp:Table>--%>
+
+            <table class="bookt">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Book Name</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Level</th>
+                    </tr>
+                </thead>
+                <tbody id="booksTableBody" runat="server">
+                </tbody>
+            </table>
+
+             
         </div>
     </form>
 </body>

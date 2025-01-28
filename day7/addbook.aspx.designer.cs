@@ -51,6 +51,15 @@ namespace day7
         protected global::System.Web.UI.WebControls.TextBox txtBookLevel;
 
         /// <summary>
+        /// txtBookid control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtBookid;
+
+        /// <summary>
         /// btnAddBook control.
         /// </summary>
         /// <remarks>
@@ -58,5 +67,14 @@ namespace day7
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnAddBook;
+
+        /// <summary>
+        /// lblmsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblmsg;
     }
 }

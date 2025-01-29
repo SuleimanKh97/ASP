@@ -68,11 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="addbook.aspx" />
+    <Content Include="editPageAdmin.aspx" />
     <Content Include="homepage.aspx" />
     <Content Include="loginPage.aspx" />
     <Content Include="mainPage.aspx" />
     <Content Include="powerOfStudent.aspx" />
     <Content Include="powerOfStudentAdmin.aspx" />
+    <Content Include="profileuser.aspx" />
     <Content Include="regeisterPage.aspx" />
     <Content Include="seeAllBook.aspx" />
     <Content Include="showMeetingRoom.aspx" />
@@ -85,6 +87,13 @@
     </Compile>
     <Compile Include="addbook.aspx.designer.cs">
       <DependentUpon>addbook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editPageAdmin.aspx.cs">
+      <DependentUpon>editPageAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editPageAdmin.aspx.designer.cs">
+      <DependentUpon>editPageAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
@@ -120,6 +129,13 @@
     </Compile>
     <Compile Include="powerOfStudentAdmin.aspx.designer.cs">
       <DependentUpon>powerOfStudentAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="profileuser.aspx.cs">
+      <DependentUpon>profileuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profileuser.aspx.designer.cs">
+      <DependentUpon>profileuser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="regeisterPage.aspx.cs">
